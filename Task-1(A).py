@@ -1,5 +1,5 @@
 def printAverage(a,n):
-    if(a[1:]=="0"*(n-1)||a=="1"*n):
+    if(a[1:]=="0"*(n-1) or a=="1"*n):
       print("-1")
     else:
       b=int(a,2)
@@ -13,4 +13,3 @@ def main():
 
 if __name__=="__main__":
     main()
-    

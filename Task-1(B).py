@@ -2,8 +2,8 @@ def divide(a):
     if(len(a)==1):
       return 0
     else:
-      if(a[:(len(a)/2)]==a[(len(a)/2):]):
-       return 1+divide(a[:len(a)/2])
+      if(a[:(len(a)//2)]==a[(len(a)//2):]):
+       return 1+divide(a[:len(a)//2])
       else:
        return 0
 
@@ -15,5 +15,3 @@ def main():
 
 if __name__=="__main__":
     main()
-
-       

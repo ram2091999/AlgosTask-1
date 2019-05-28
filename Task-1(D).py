@@ -10,7 +10,7 @@ def isPromoted(n,r,x,y,scn,contest):
     else:
         print("No change")
 
- def main():
+def main():
     n,r,x,y=input("").split()
     c=input("").split()
     s=input("").split()
@@ -18,5 +18,5 @@ def isPromoted(n,r,x,y,scn,contest):
     scn=[int(i) for i in s]
     isPromoted(int(n),int(r),int(x),int(y),scn,contest)
 
- if __name__=="__main__":
+if __name__=="__main__":
      main()
