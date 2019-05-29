@@ -43,10 +43,10 @@ def TwoNumberFinder(a):
 def arrayextend(list1,list2):
     if len(list1)==2:
        if list1[0]==list2[0]:
-         list1[0],list1[1]=list1[1],list[0]
+         list1[0],list1[1]=list1[1],list1[0]
          list1.append(list2[1])
        elif list1[0]==list2[1]:
-         list1[0],list1[1]=list1[1],list[0]
+         list1[0],list1[1]=list1[1],list1[0]
          list1.append(list2[0])
        elif list1[1]==list2[0]:
          list1.append(list2[1])
